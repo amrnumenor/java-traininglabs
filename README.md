@@ -1,4 +1,4 @@
-# Java Fundamentals: Basics You Need to Know to Start Your Java Journey
+# Java Training Labs: Basics You Need to Know to Start Your Java Journey
 
 ## Contents
 1. Fundamentals
