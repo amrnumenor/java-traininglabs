@@ -3,7 +3,7 @@ package global.skymind.solution.fundamental;
 import java.util.Arrays;
 
 // variables and data types
-public class M2_VariablesAndDataTypes {
+public class Ex2_VariablesAndDataTypes {
 
     /*
     1: Primitive Types

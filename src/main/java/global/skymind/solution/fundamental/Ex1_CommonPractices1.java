@@ -13,7 +13,7 @@ This is also one way to write block comments in Java
 
 //This is a way to write inline comments in Java
 
-public class M1_CommonPractices1 {
+public class Ex1_CommonPractices1 {
 
     /*
     1: Declaring class variables
@@ -33,7 +33,7 @@ public class M1_CommonPractices1 {
     /*
     2: Declaring an empty constructor
      */
-    public M1_CommonPractices1() {
+    public Ex1_CommonPractices1() {
         /*
         Characteristics of a constructor:
         1. A constructor has only access modifier
@@ -45,7 +45,7 @@ public class M1_CommonPractices1 {
     /*
     3.1: Declaring another constructor with inputs
      */
-    public M1_CommonPractices1(int randInteger, double randDouble, String randString) {
+    public Ex1_CommonPractices1(int randInteger, double randDouble, String randString) {
 
         System.out.println("==========================Before assignment=====================");
         System.out.println("randInt before assignment: " + randInt);
@@ -91,16 +91,16 @@ public class M1_CommonPractices1 {
 
 }
 
-class M1_CommonPractices2 {
+class Ex1_CommonPractices2 {
 
     public static void main(String[] args) {
 
         //2.1: Instantiating an empty constructor without any input arguments
-        M1_CommonPractices1 testInstance1 = new M1_CommonPractices1();
+        Ex1_CommonPractices1 testInstance1 = new Ex1_CommonPractices1();
 
         //3.1: Instantiating a constructor with input arguments
         //Note: There is one space between the comma and the next input argument, always
-        M1_CommonPractices1 testInstance2 = new M1_CommonPractices1(1, 2.2, "Hi");
+        Ex1_CommonPractices1 testInstance2 = new Ex1_CommonPractices1(1, 2.2, "Hi");
 
         //3.2: Print out all the assigned variables
         System.out.println("=======================After assignment==========================");
@@ -112,15 +112,15 @@ class M1_CommonPractices2 {
         //4.2: Accessing class attributes using Getter method
         //Uncomment subsequent line and see what is the error
 //        System.out.println(M1_CommonPractices1.helloJava);
-        System.out.println("Variable helloJava: " + M1_CommonPractices1.getHelloJava());
+        System.out.println("Variable helloJava: " + Ex1_CommonPractices1.getHelloJava());
 
         //5.2: Altering class attributes using Setter method
-        System.out.println("staticRandD before Setter: " + M1_CommonPractices1.staticRandD);
-        M1_CommonPractices1.setRandD(1000);
-        System.out.println("staticRandD after Setter: " + M1_CommonPractices1.staticRandD);
+        System.out.println("staticRandD before Setter: " + Ex1_CommonPractices1.staticRandD);
+        Ex1_CommonPractices1.setRandD(1000);
+        System.out.println("staticRandD after Setter: " + Ex1_CommonPractices1.staticRandD);
 
         //6: Access the pi constant
-        System.out.println("Constant pi: " + M1_CommonPractices1.PI_CONST);
+        System.out.println("Constant pi: " + Ex1_CommonPractices1.PI_CONST);
 
     }
 }
