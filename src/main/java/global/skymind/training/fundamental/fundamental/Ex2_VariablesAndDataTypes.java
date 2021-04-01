@@ -1,9 +1,9 @@
-package global.skymind.solution.fundamental;
+package global.skymind.training.fundamental.fundamental;
 
 import java.util.Arrays;
 
 // variables and data types
-public class M2_VariablesAndDataTypes {
+public class Ex2_VariablesAndDataTypes {
 
     /*
     1: Primitive Types
@@ -54,7 +54,7 @@ public class M2_VariablesAndDataTypes {
 
         System.out.println("String: " + str);
 
-        System.out.println("Array: " + Arrays.toString(array));
+        System.out.println("Array: " + /* ENTER YOUR CODE HERE TO PRINT OUT THE ARRAY */);
     }
 
     public static void main(String[] args) {
