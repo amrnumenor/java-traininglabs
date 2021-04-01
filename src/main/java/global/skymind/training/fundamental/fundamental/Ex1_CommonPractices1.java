@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.training.fundamental.fundamental;
 
 /**
  * This is the way to write Javadoc - or in Python terms: docstring
@@ -53,14 +53,14 @@ public class Ex1_CommonPractices1 {
         System.out.println("randStr before assignment: " + randStr);
 
         //Assign randInteger to randInt
-        randInt = randInteger;
+        //ENTER YOUR CODE HERE
 
         //Assign randDouble to nonStaticRandD
-        nonStaticRandD = randDouble;
+        //ENTER YOUR CODE HERE TO ASSIGN randDouble TO nonStaticRandD
 
         //Assign randString to randStr using "this" keyword
         //The "this" keyword is an instance reference
-        this.randStr = randString;
+        //ENTER YOUR CODE HERE USING this.randStr
     }
 
     /*
@@ -112,15 +112,15 @@ class Ex1_CommonPractices2 {
         //4.2: Accessing class attributes using Getter method
         //Uncomment subsequent line and see what is the error
 //        System.out.println(Ex1_CommonPractices1.helloJava);
-        System.out.println("Variable helloJava: " + Ex1_CommonPractices1.getHelloJava());
+        System.out.println("Variable helloJava: " + /* ENTER YOUR CODE HERE TO GET THE VARIABLE */);
 
         //5.2: Altering class attributes using Setter method
         System.out.println("staticRandD before Setter: " + Ex1_CommonPractices1.staticRandD);
         Ex1_CommonPractices1.setRandD(1000);
-        System.out.println("staticRandD after Setter: " + Ex1_CommonPractices1.staticRandD);
+        System.out.println("staticRandD after Setter: " + /* ENTER YOUR CODE HERE TO ACCESS staticRandD */);
 
         //6: Access the pi constant
-        System.out.println("Constant pi: " + Ex1_CommonPractices1.PI_CONST);
+        System.out.println("Constant pi: " + /* ENTER YOUR CODE HERE TO ACCESS THE CONSTANT */);
 
     }
 }

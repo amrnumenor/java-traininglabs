@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.training.fundamental.fundamental;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -39,7 +39,7 @@ public class Ex11_ForLoop {
             System.out.println("Incorrect input. Please input an integer between 1 and 10.");
         } else {
             for (int i = 0; i < input; i++) {
-                System.out.println(marvelRank.get(i));
+                System.out.println(/* ENTER YOUR CODE HERE */);
             }
         }
 
