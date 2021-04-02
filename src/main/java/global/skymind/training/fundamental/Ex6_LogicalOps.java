@@ -1,4 +1,4 @@
-package global.skymind.training.fundamental.fundamental;
+package global.skymind.training.fundamental;
 
 public class Ex6_LogicalOps {
 

@@ -1,6 +1,4 @@
-package global.skymind.training.fundamental.fundamental;
-
-import java.util.Arrays;
+package global.skymind.training.fundamental;
 
 // variables and data types
 public class Ex2_VariablesAndDataTypes {
