@@ -1,4 +1,4 @@
-package global.skymind.training.fundamental.fundamental;
+package global.skymind.training.fundamental;
 
 import java.util.ArrayList;
 import java.util.Scanner;
