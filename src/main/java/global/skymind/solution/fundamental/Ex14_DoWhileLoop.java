@@ -1,8 +1,8 @@
-package global.skymind.training.fundamental;
+package global.skymind.solution.fundamental;
 
 import java.util.ArrayList;
 
-public class Ex16_DoWhileLoop {
+public class Ex14_DoWhileLoop {
 
     public static void main(String[] args) {
         /*
@@ -35,7 +35,7 @@ public class Ex16_DoWhileLoop {
         // Let's try printing the first element using a while loop
         System.out.println("============While loop=================");
         while (printCounter4While < 0) {
-            System.out.println(/* ENTER YOUR CODE HERE */);
+            System.out.println(progLangJobs.get(printCounter4While));
             printCounter4While++;
         }
 
@@ -44,7 +44,7 @@ public class Ex16_DoWhileLoop {
         do {
             System.out.println(progLangJobs.get(printCounter4DoWhile));
             printCounter4DoWhile++;
-        } while (/* ENTER YOUR CODE HERE */);
+        } while (printCounter4DoWhile < 0);
 
         /*
         Do you notice the difference? What did you managed to observe in this example?
