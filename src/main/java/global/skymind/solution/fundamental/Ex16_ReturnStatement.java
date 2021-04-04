@@ -3,7 +3,7 @@ package global.skymind.solution.fundamental;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Ex18_ReturnStatement {
+public class Ex16_ReturnStatement {
 
     public static void main(String[] args) {
 

@@ -3,7 +3,7 @@ package global.skymind.solution.fundamental;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Ex17_BreakContinueStatement {
+public class Ex15_BreakContinueStatement {
 
     public static void main(String[] args) {
 
