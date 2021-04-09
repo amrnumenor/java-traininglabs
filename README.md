@@ -12,8 +12,28 @@
    d. Control Flow
    
 2. Intermediate - WIP
+   
+   a. Object-oriented Programming
+   
+      - Encapsulation
+     
+      - Inheritance
+
+      - Abstraction
+
+      - Polymorphism
+   
+   b. Collections and Generics
+
+   c. Packages and Creating a Java Project using Apache Maven
+
+   d. Error Handling and Debugging
 
 3. Advanced - WIP
+
+   a. Graphical User Interface
+   
+   b. Streams File I/O
 
 ## Getting Started
 
