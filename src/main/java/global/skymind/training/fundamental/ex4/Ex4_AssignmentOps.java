@@ -41,7 +41,7 @@ public class Ex4_AssignmentOps {
             //demonstrating "+=", which means assigning sum of var1 and var2 into var2
             var2 = var2 + var1;
             //above expression is similar to the following shorthand
-            var3 /* ENTER YOUR CODE HERE */ var1;
+//            var3 /* ENTER YOUR CODE HERE */ var1;
             System.out.println("var2 = " + var2 + ", var3 = " + var3);
 
             var2 = var4;
@@ -49,7 +49,7 @@ public class Ex4_AssignmentOps {
             //demonstrating "-="
             var2 = var2 - var1;
             //above expression is similar to the following shorthand
-            var3 /* ENTER YOUR CODE HERE */ var1;
+//            var3 /* ENTER YOUR CODE HERE */ var1;
             System.out.println("var2 = " + var2 + ", var3 = " + var3);
 
             var2 = var4;
@@ -57,7 +57,7 @@ public class Ex4_AssignmentOps {
             //demonstrating "*="
             var2 = var2 * var1;
             //similar to the following shorthand
-            var3 /* ENTER YOUR CODE HERE */ var1;
+//            var3 /* ENTER YOUR CODE HERE */ var1;
             System.out.println("var2 = " + var2 + ", var3 = " + var3);
 
             var2 = var4;
@@ -65,13 +65,13 @@ public class Ex4_AssignmentOps {
             //demonstrating "/="
             var2 = var2 / var1;
             //above expression is similar to the following shorthand
-            var3 /* ENTER YOUR CODE HERE */ var1;
+//            var3 /* ENTER YOUR CODE HERE */ var1;
             System.out.println("var2 = " + var2 + ", var3 = " + var3);
 
             var2 = var4;
             var3 = var5;
             //demonstrating "%="
-            var2 = var2 /* ENTER YOUR CODE HERE */ var1;
+//            var2 = var2 /* ENTER YOUR CODE HERE */ var1;
             //above expression is similar to the following shorthand
             var3 %= var1;
             System.out.println("var2 = " + var2 + ", var3 = " + var3);

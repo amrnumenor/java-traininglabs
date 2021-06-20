@@ -49,9 +49,10 @@ public class Ex7_UnaryOps {
         System.out.println("var1-- after decrement is " + var1);
 
         // demonstrate "!" aka logical complement operator which inverts value of boolean
-        System.out.println("!var2 is " + /* ENTER YOUR CODE HERE */);
+        System.out.println("!var2 is " + null /* REMOVE NULL AND ENTER YOUR CODE HERE */);
 
 
     }
 
 }
+

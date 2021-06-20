@@ -69,7 +69,7 @@ public class Ex2_VariablesAndDataTypes {
 
         System.out.println("String: " + str);
 
-        System.out.println("Array: " + /* ENTER YOUR CODE HERE TO PRINT OUT THE ARRAY */);
+        System.out.println("Array: " + null /* REMOVE NULL AND ENTER YOUR CODE HERE TO PRINT OUT THE ARRAY */);
     }
 
     public static void main(String[] args) {

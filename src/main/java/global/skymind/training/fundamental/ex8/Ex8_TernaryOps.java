@@ -40,8 +40,8 @@ public class Ex8_TernaryOps {
         System.out.println("And enter your vehicle speed (in km/h): ");
         double speed = scanner.nextDouble();
 
-        String result = /* ENTER YOUR CODE HERE */ "Slow down!" /* ENTER YOUR CODE HERE */ "You are within speed limit.";
-        System.out.println(result);
+//        String result = /* ENTER YOUR CODE HERE */ "Slow down!" /* ENTER YOUR CODE HERE */ "You are within speed limit.";
+//        System.out.println(result);
 
 
     }

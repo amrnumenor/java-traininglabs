@@ -35,14 +35,14 @@ public class Ex6_LogicalOps {
         System.out.println("var1 = " + var1 + ", var2 = " + var2 + ", var3 = " + var3 + ", var4 = " + var4);
 
         // demonstrating "&&" aka Logical AND
-        System.out.println("(var1 == var2) && (var3 == var4) is " + ((var1 == var2) /* ENTER YOUR CODE HERE */ (var3 == var4)));
+//        System.out.println("(var1 == var2) && (var3 == var4) is " + ((var1 == var2) /* ENTER YOUR CODE HERE */ (var3 == var4)));
 
         // demonstrating "||" aka Logical OR
-        System.out.println("(var1 == var2) || (var3 == var4) is " + ((var1 == var2) /* ENTER YOUR CODE HERE */ (var3 == var4)));
+//        System.out.println("(var1 == var2) || (var3 == var4) is " + ((var1 == var2) /* ENTER YOUR CODE HERE */ (var3 == var4)));
 
         // demonstrating "!" aka Logical NOT
-        System.out.println("!(var1 > var2) is " + !(var1 /* ENTER YOUR CODE HERE */ var2));
-        System.out.println("!(var1 < var2) is " + !(var1 /* ENTER YOUR CODE HERE */ var2));
+//        System.out.println("!(var1 > var2) is " + !(var1 /* ENTER YOUR CODE HERE */ var2));
+//        System.out.println("!(var1 < var2) is " + !(var1 /* ENTER YOUR CODE HERE */ var2));
     }
 
 }

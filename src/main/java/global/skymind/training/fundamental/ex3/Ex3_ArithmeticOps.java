@@ -34,23 +34,23 @@ public class Ex3_ArithmeticOps {
         double var3 = 0;
 
         //demonstrating "+" aka addition
-        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
+//        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
         System.out.println(var1 + " + " + var2 + " = " + var3);
 
         //demonstrating "-" aka subtraction
-        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
+//        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
         System.out.println(var1 + " - " + var2 + " = " + var3);
 
         //demonstrating "*" aka multiplication or product
-        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
+//        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
         System.out.println(var1 + " * " + var2 + " = " + var3);
 
         //demonstrating "/" aka division
-        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
+//        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
         System.out.println(var1 + " / " + var2 + " = " + var3);
 
         //demonstrating "%" aka modulus or remainder
-        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
+//        var3 = var1 /* ENTER YOUR CODE HERE */ var2;
         System.out.println(var1 + " % " + var2 + " = " + var3);
 
     }
