@@ -58,10 +58,10 @@ public class Ex14_DoWhileLoop {
 
         // Let's use a do-while loop to do the same thing
         System.out.println("============Do While loop=================");
-        do {
-            System.out.println(progLangJobs.get(printCounter4DoWhile));
-            printCounter4DoWhile++;
-        } while (/* ENTER YOUR CODE HERE */);
+//        do {
+//            System.out.println(progLangJobs.get(printCounter4DoWhile));
+//            printCounter4DoWhile++;
+//        } while (/* ENTER YOUR CODE HERE */);
 
         /*
         Do you notice the difference? What did you managed to observe in this example?

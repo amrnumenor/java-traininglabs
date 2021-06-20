@@ -129,15 +129,15 @@ class Ex1_CommonPractices2 {
         //4.2: Accessing class attributes using Getter method
         //Uncomment subsequent line and see what is the error
 //        System.out.println(Ex1_CommonPractices1.helloJava);
-        System.out.println("Variable helloJava: " + /* ENTER YOUR CODE HERE TO GET THE VARIABLE */);
+        System.out.println("Variable helloJava: " + null /* REMOVE NULL AND ENTER YOUR CODE HERE TO GET THE VARIABLE */);
 
         //5.2: Altering class attributes using Setter method
         System.out.println("staticRandD before Setter: " + Ex1_CommonPractices1.staticRandD);
         Ex1_CommonPractices1.setRandD(1000);
-        System.out.println("staticRandD after Setter: " + /* ENTER YOUR CODE HERE TO ACCESS staticRandD */);
+        System.out.println("staticRandD after Setter: " + null /* REMOVE NULL AND ENTER YOUR CODE HERE TO ACCESS staticRandD */);
 
         //6: Access the pi constant
-        System.out.println("Constant pi: " + /* ENTER YOUR CODE HERE TO ACCESS THE CONSTANT */);
+        System.out.println("Constant pi: " + null /* REMOVE NULL AND ENTER YOUR CODE HERE TO ACCESS THE CONSTANT */);
 
     }
 }

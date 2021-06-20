@@ -39,11 +39,11 @@ public class Ex9_IfElseStatement {
 
         // you can choose to write this in a good-old if-else statement
         System.out.println("=============Using good-old if-else statement.==============");
-        if (/* ENTER YOUR CODE HERE */) {
-            System.out.println("This is an even number.");
-        } else {
-            System.out.println("This is an odd number.");
-        }
+//        if (/* ENTER YOUR CODE HERE */) {
+//            System.out.println("This is an even number.");
+//        } else {
+//            System.out.println("This is an odd number.");
+//        }
 
         // or you can use ternary operator to write this if-else statement
         System.out.println("==================Using an Elvis (or ternary) operator.=============");
@@ -53,3 +53,4 @@ public class Ex9_IfElseStatement {
     }
 
 }
+

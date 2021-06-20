@@ -34,22 +34,22 @@ public class Ex5_RelationalOps {
         System.out.println("var1 = " + var1 + ", var2 = " + var2);
 
         // demonstrating "==" aka equal
-        System.out.println("var1 == var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
+//        System.out.println("var1 == var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
 
         // demonstrating "!=" aka not equal
-        System.out.println("var1 != var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
+//        System.out.println("var1 != var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
 
         // demonstrating "<" aka less than
-        System.out.println("var1 < var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
+//        System.out.println("var1 < var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
 
         // demonstrating ">" aka greater than
-        System.out.println("var1 > var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
+//        System.out.println("var1 > var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
 
         // demonstrating "<=" aka less than or equal to
-        System.out.println("var1 <= var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
+//        System.out.println("var1 <= var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
 
         // demonstrating ">=" aka greater than or equal to
-        System.out.println("var1 >= var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
+//        System.out.println("var1 >= var2 is " + (var1 /* ENTER YOUR CODE HERE */ var2));
     }
 
 }

@@ -50,7 +50,7 @@ public class Ex16_ReturnStatement {
             arr[i] = random.nextInt(100); // put each randomly generated number into the array
         }
 
-        /* ENTER YOUR CODE HERE */ // return the array object
+        return arr; // return the array object
     }
 
     private static int getFirstEvenNumber(int[] arr) {
@@ -62,7 +62,7 @@ public class Ex16_ReturnStatement {
                 return arr[i];
             }
         }
-        return /* ENTER YOUR CODE HERE */;
+        return arr.length /* REMOVE arr.length AND ENTER YOUR CODE HERE */;
     }
 
 

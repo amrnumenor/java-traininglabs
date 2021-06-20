@@ -46,9 +46,9 @@ public class Ex12_ForEachLoop {
         marvelRank.add("10. Matt Murdock");
 
         // Let's replace the lengthy for loop with a simpler for-each loop
-        for (/* ENTER YOUR CODE HERE */) {
-            System.out.println(/* ENTER YOUR CODE HERE */);
-        }
+//        for (/* ENTER YOUR CODE HERE */) {
+//            System.out.println(/* ENTER YOUR CODE HERE */);
+//        }
 
     }
 
