@@ -10,10 +10,12 @@
    c. Operators
    
    d. Control Flow
+
+   e. Packages and Scope
    
-2. Intermediate - WIP
+2. Intermediate
    
-   a. Object-oriented Programming
+   a. Object-oriented Programming - WIP
    
       - Encapsulation
      
@@ -23,17 +25,19 @@
 
       - Polymorphism
    
-   b. Collections and Generics
+   b. Error Handling and Debugging - WIP
 
-   c. Packages and Creating a Java Project using Apache Maven
+   c. Collections and Generics
 
-   d. Error Handling and Debugging
-
-3. Advanced - WIP
+3. Advanced
 
    a. Graphical User Interface
    
-   b. Streams File I/O
+   b. Streams File I/O - WIP
+
+   c. Reflection API - WIP
+
+   d. Multithreading - WIP
 
 ## Getting Started
 
