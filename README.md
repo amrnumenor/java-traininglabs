@@ -15,7 +15,7 @@
    
 2. Intermediate
    
-   a. Object-oriented Programming - WIP
+   a. Object-oriented Programming
    
       - Encapsulation
      
@@ -25,7 +25,7 @@
 
       - Polymorphism
    
-   b. Error Handling and Debugging - WIP
+   b. Error Handling and Debugging
 
    c. Collections and Generics
 
