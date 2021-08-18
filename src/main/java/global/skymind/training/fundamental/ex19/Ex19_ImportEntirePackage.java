@@ -18,27 +18,27 @@
 package global.skymind.training.fundamental.ex19;
 
 /**
-    1. We can access a specific class package but not the sub-packages by using a
-       specific class name after the import statement.
-    2. In contrast to the Fully Qualified Name method, the instance of class
-       MyClass is created in simplified term and not need to include whole package name.
+    1. By using asterisk (*) after the import statement, we can access all the classes of the
+       package but not the sub-packages.
+    2. Similar to the Import Package with Class Name method, you can refer to any class or interface
+       in the util package by its simple name, MyClass.
  */
 
 //Import here <<<
 
 
-public class Ex19_ImportPackageByClassName {
+public class Ex19_ImportEntirePackage {
 
     public static void main(String args[])
     {
         /*
-            Ex2. Import Package by Class Name Method
+            Ex3. Import Entire Package Method
             a. Please create obj instance and import MyClass to print
             b. The MyClass file is located at global.skymind.util
          */
 
         // Initializing the String variable with a value
-        String name = "This packages is imported by Class Name";
+        String name = "The entire packages is imported by using asterisk *";
 
         // Creating an instance of class MyClass from another package.
         //Write your code here
