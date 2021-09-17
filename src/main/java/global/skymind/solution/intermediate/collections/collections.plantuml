@@ -1,0 +1,227 @@
+@startuml
+
+title __COLLECTIONS's Class Diagram__\n
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex10_Stack {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex11_QueuePriority {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex12_DequeArray {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex13_HashSet {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex14_LinkedHashSet {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex15_TreeSet {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex16_Map {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex17_Array {
+          - arraySize : int
+          - theArray : int[]
+          + deleteIndex()
+          + doesArrayContainThisValue()
+          + generateRandomArray()
+          + getArraySize()
+          + getTheArray()
+          + getValueAtIndex()
+          + insertValue()
+          + linearSearchForValue()
+          {static} + main()
+          + printArray()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex18_Recursion {
+          + calcTriangularNum()
+          + calculateSquaresToPrint()
+          + drawSquares()
+          + getFactorial()
+          + getTriangularNum()
+          + getTriangularNumR()
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex1_GenericClass {
+          + getObject()
+          ~ Ex1_GenericClass()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex2_GenericFunction {
+          {static} + main()
+          {static} ~ genericDisplay()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex3_AddInList {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex4_ChangeInList {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex5_DeleteInList {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex6_IterateInList {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex7_ArrayList {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex8_Linked {
+          + bookName : String
+          + millionsSold : int
+          + Ex8_Linked()
+          + display()
+          {static} + main()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex8_LinkedList {
+          + display()
+          + find()
+          + insertFirstLink()
+          + isEmpty()
+          + removeFirst()
+          + removeLink()
+          ~ Ex8_LinkedList()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex9_Vector {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Main {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  global.skymind.solution.intermediate.collections.Ex1_GenericClass o-- T : obj
+  global.skymind.solution.intermediate.collections.Ex8_Linked o-- global.skymind.solution.intermediate.collections.Ex8_Linked : next
+  global.skymind.solution.intermediate.collections.Ex8_LinkedList o-- global.skymind.solution.intermediate.collections.Ex8_Linked : firstLink
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

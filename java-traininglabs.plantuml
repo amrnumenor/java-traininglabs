@@ -1,0 +1,1298 @@
+@startuml
+
+title __JAVA-TRAININGLABS's Class Diagram__\n
+
+  namespace global.skymind {
+    class global.skymind.TestRunApp {
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.javafx.ex1 {
+      class global.skymind.solution.advanced.gui.javafx.ex1.MyFXStage {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.javafx.ex2 {
+      class global.skymind.solution.advanced.gui.javafx.ex2.MyFXButton {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.javafx.ex3 {
+      class global.skymind.solution.advanced.gui.javafx.ex3.MyFXTextBox {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.javafx.ex4 {
+      class global.skymind.solution.advanced.gui.javafx.ex4.MyFXCheckBox {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.javafx.ex5 {
+      class global.skymind.solution.advanced.gui.javafx.ex5.MyFXMenuBar {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.javafx.ex6 {
+      class global.skymind.solution.advanced.gui.javafx.ex6.MyFXFileChooser {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.swing.ex1 {
+      class global.skymind.solution.advanced.gui.swing.ex1.MySFrame {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.swing.ex2 {
+      class global.skymind.solution.advanced.gui.swing.ex2.MySButton {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.swing.ex3 {
+      class global.skymind.solution.advanced.gui.swing.ex3.MySTextField {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.swing.ex4 {
+      class global.skymind.solution.advanced.gui.swing.ex4.MySCheckBox {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.swing.ex5 {
+      class global.skymind.solution.advanced.gui.swing.ex5.MySMenuBar {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.advanced.gui.swing.ex6 {
+      class global.skymind.solution.advanced.gui.swing.ex6.MySFileChooser {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      class global.skymind.solution.fundamental.ex1.Ex1_CommonPractices1 {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      class global.skymind.solution.fundamental.ex1.Ex1_CommonPractices2 {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex10.Ex10_SwitchStatement {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex11.Ex11_ForLoop {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex12.Ex12_ForEachLoop {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex13.Ex13_WhileLoop {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex14.Ex14_DoWhileLoop {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex15.Ex15_BreakContinueStatement {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex16.Ex16_ReturnStatement {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex17.Ex17_FullyQualifiedNameMethod {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex18.Ex18_ImportPackageByClassName {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex1 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex19.Ex19_ImportEntirePackage {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex2 {
+      class global.skymind.solution.fundamental.ex2.Ex2_VariablesAndDataTypes {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex2 {
+      namespace  {
+        class global.skymind.solution.fundamental.ex20.Ex20_StaticImportStatement {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex3 {
+      class global.skymind.solution.fundamental.ex3.Ex3_ArithmeticOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex4 {
+      class global.skymind.solution.fundamental.ex4.Ex4_AssignmentOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex5 {
+      class global.skymind.solution.fundamental.ex5.Ex5_RelationalOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex6 {
+      class global.skymind.solution.fundamental.ex6.Ex6_LogicalOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex7 {
+      class global.skymind.solution.fundamental.ex7.Ex7_UnaryOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex8 {
+      class global.skymind.solution.fundamental.ex8.Ex8_TernaryOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.fundamental.ex9 {
+      class global.skymind.solution.fundamental.ex9.Ex9_IfElseStatement {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex10_Stack {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex11_QueuePriority {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex12_DequeArray {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex13_HashSet {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex14_LinkedHashSet {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex15_TreeSet {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex16_Map {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex17_Array {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex18_Recursion {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex1_GenericClass {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex2_GenericFunction {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex3_AddInList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex4_ChangeInList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex5_DeleteInList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex6_IterateInList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex7_ArrayList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex8_Linked {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex8_LinkedList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Ex9_Vector {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.collections {
+      class global.skymind.solution.intermediate.collections.Main {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.exceptions {
+      class global.skymind.solution.intermediate.exceptions.CustomExceptions {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.exceptions {
+      class global.skymind.solution.intermediate.exceptions.ExceptionHandler {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.exceptions {
+      class global.skymind.solution.intermediate.exceptions.Exceptions {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.exceptions {
+      class global.skymind.solution.intermediate.exceptions.NameNotFoundException {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.exceptions {
+      class global.skymind.solution.intermediate.exceptions.NotIntegerException {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.exceptions {
+      class global.skymind.solution.intermediate.exceptions.NotPalindromeException {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace solution.intermediate.exceptions {
+      class global.skymind.solution.intermediate.exceptions.NotUpperCaseException {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.javafx.ex1 {
+      class global.skymind.training.advanced.gui.javafx.ex1.MyFXStage {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.javafx.ex2 {
+      class global.skymind.training.advanced.gui.javafx.ex2.MyFXButton {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.javafx.ex3 {
+      class global.skymind.training.advanced.gui.javafx.ex3.MyFXTextBox {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.javafx.ex4 {
+      class global.skymind.training.advanced.gui.javafx.ex4.MyFXCheckBox {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.javafx.ex5 {
+      class global.skymind.training.advanced.gui.javafx.ex5.MyFXMenuBar {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.javafx.ex6 {
+      class global.skymind.training.advanced.gui.javafx.ex6.MyFXFileChooser {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.swing.ex1 {
+      class global.skymind.training.advanced.gui.swing.ex1.MySFrame {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.swing.ex2 {
+      class global.skymind.training.advanced.gui.swing.ex2.MySButton {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.swing.ex3 {
+      class global.skymind.training.advanced.gui.swing.ex3.MySTextField {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.swing.ex4 {
+      class global.skymind.training.advanced.gui.swing.ex4.MySCheckBox {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.swing.ex5 {
+      class global.skymind.training.advanced.gui.swing.ex5.MySMenuBar {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.advanced.gui.swing.ex6 {
+      class global.skymind.training.advanced.gui.swing.ex6.MySFileChooser {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      class global.skymind.training.fundamental.ex1.Ex1_CommonPractices1 {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      class global.skymind.training.fundamental.ex1.Ex1_CommonPractices2 {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex10.Ex10_SwitchStatement {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex11.Ex11_ForLoop {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex12.Ex12_ForEachLoop {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex13.Ex13_WhileLoop {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex14.Ex14_DoWhileLoop {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex15.Ex15_BreakContinueStatement {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex16.Ex16_ReturnStatement {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex17.Ex17_FullyQualifiedNameMethod {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex18.Ex18_ImportPackageByClassName {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex1 {
+      namespace  {
+        class global.skymind.training.fundamental.ex19.Ex19_ImportEntirePackage {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex2 {
+      class global.skymind.training.fundamental.ex2.Ex2_VariablesAndDataTypes {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex2 {
+      namespace  {
+        class global.skymind.training.fundamental.ex20.Ex20_StaticImportStatement {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex3 {
+      class global.skymind.training.fundamental.ex3.Ex3_ArithmeticOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex4 {
+      class global.skymind.training.fundamental.ex4.Ex4_AssignmentOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex5 {
+      class global.skymind.training.fundamental.ex5.Ex5_RelationalOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex6 {
+      class global.skymind.training.fundamental.ex6.Ex6_LogicalOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex7 {
+      class global.skymind.training.fundamental.ex7.Ex7_UnaryOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex8 {
+      class global.skymind.training.fundamental.ex8.Ex8_TernaryOps {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.fundamental.ex9 {
+      class global.skymind.training.fundamental.ex9.Ex9_IfElseStatement {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex10_Stack {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex11_QueuePriority {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex12_DequeArray {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex13_HashSet {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex14_LinkedHashSet {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex15_TreeSet {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex16_Map {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex17_Array {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex18_Recursion {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex1_GenericClass {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex2_GenericFunction {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex3_AddInList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex4_ChangeInList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex5_DeleteInList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex6_IterateInList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex7_ArrayList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex8_Linked {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex8_LinkedList {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Ex9_Vector {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.collections {
+      class global.skymind.training.intermediate.collections.Main {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.CustomExceptions {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.Ex_1 {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.Ex_2 {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.Ex_3 {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.ExceptionHandler {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.Exceptions {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.NameNotFoundException {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.NotIntegerException {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.NotPalindromeException {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.exceptions {
+      class global.skymind.training.intermediate.exceptions.NotUpperCaseException {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo00_review {
+      class global.skymind.training.intermediate.oop.demo.demo00_review.reviewProgram {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo01_object_creation {
+      class global.skymind.training.intermediate.oop.demo.demo01_object_creation.Car {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo01_object_creation {
+      namespace with_constructor {
+        class global.skymind.training.intermediate.oop.demo.demo01_object_creation.with_constructor.Demo02_ObjectWithConstructor {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo01_object_creation {
+      namespace with_constructor {
+        class global.skymind.training.intermediate.oop.demo.demo01_object_creation.with_constructor.Person {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo01_object_creation {
+      namespace without_constructor {
+        class global.skymind.training.intermediate.oop.demo.demo01_object_creation.without_constructor.Demo01_ClassAndObjects {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo01_object_creation {
+      namespace without_constructor {
+        class global.skymind.training.intermediate.oop.demo.demo01_object_creation.without_constructor.Person {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo02_encapsulation {
+      class global.skymind.training.intermediate.oop.demo.demo02_encapsulation.Encapsulation {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo02_encapsulation {
+      class global.skymind.training.intermediate.oop.demo.demo02_encapsulation.Student {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo03_inheritance {
+      class global.skymind.training.intermediate.oop.demo.demo03_inheritance.Animal {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo03_inheritance {
+      class global.skymind.training.intermediate.oop.demo.demo03_inheritance.Dog {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo04_abstraction.abstractClassDemo {
+      class global.skymind.training.intermediate.oop.demo.demo04_abstraction.abstractClassDemo.abstractClassDemo {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo04_abstraction.abstractClassDemo {
+      abstract class global.skymind.training.intermediate.oop.demo.demo04_abstraction.abstractClassDemo.simpleAbstract {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo04_abstraction.interfaceDemo {
+      class global.skymind.training.intermediate.oop.demo.demo04_abstraction.interfaceDemo.InterfaceDemo {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo04_abstraction.interfaceDemo {
+      interface global.skymind.training.intermediate.oop.demo.demo04_abstraction.interfaceDemo.simpleInterface {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo05_polymorphism {
+      class global.skymind.training.intermediate.oop.demo.demo05_polymorphism.MethodOverloading {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo05_polymorphism {
+      namespace OverridingDemo {
+        class global.skymind.training.intermediate.oop.demo.demo05_polymorphism.OverridingDemo.MethodOverriding {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.demo.demo05_polymorphism {
+      namespace OverridingDemo {
+        class global.skymind.training.intermediate.oop.demo.demo05_polymorphism.OverridingDemo.basicClass {
+        }
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.ex01 {
+      class global.skymind.training.intermediate.oop.ex01.Book {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.ex02 {
+      class global.skymind.training.intermediate.oop.ex02.BankAccount {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.ex03 {
+      class global.skymind.training.intermediate.oop.ex03.Employee {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.ex04 {
+      class global.skymind.training.intermediate.oop.ex04.CustomerDatabaseApp {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace training.intermediate.oop.ex05 {
+      class global.skymind.training.intermediate.oop.ex05.Account {
+      }
+    }
+  }
+  
+
+  namespace global.skymind {
+    namespace util {
+      class global.skymind.util.MyClass {
+      }
+    }
+  }
+  
+
+  global.skymind.solution.advanced.gui.javafx.ex1.MyFXStage -up-|> javafx.application.Application
+  global.skymind.solution.advanced.gui.javafx.ex2.MyFXButton .up.|> javafx.event.EventHandler
+  global.skymind.solution.advanced.gui.javafx.ex2.MyFXButton -up-|> javafx.application.Application
+  global.skymind.solution.advanced.gui.javafx.ex3.MyFXTextBox .up.|> javafx.event.EventHandler
+  global.skymind.solution.advanced.gui.javafx.ex3.MyFXTextBox -up-|> javafx.application.Application
+  global.skymind.solution.advanced.gui.javafx.ex4.MyFXCheckBox .up.|> javafx.event.EventHandler
+  global.skymind.solution.advanced.gui.javafx.ex4.MyFXCheckBox -up-|> javafx.application.Application
+  global.skymind.solution.advanced.gui.javafx.ex5.MyFXMenuBar .up.|> javafx.event.EventHandler
+  global.skymind.solution.advanced.gui.javafx.ex5.MyFXMenuBar -up-|> javafx.application.Application
+  global.skymind.solution.advanced.gui.javafx.ex6.MyFXFileChooser .up.|> javafx.event.EventHandler
+  global.skymind.solution.advanced.gui.javafx.ex6.MyFXFileChooser -up-|> javafx.application.Application
+  global.skymind.solution.advanced.gui.swing.ex1.MySFrame -up-|> javax.swing.JFrame
+  global.skymind.solution.advanced.gui.swing.ex2.MySButton .up.|> java.awt.event.ActionListener
+  global.skymind.solution.advanced.gui.swing.ex2.MySButton -up-|> javax.swing.JFrame
+  global.skymind.solution.advanced.gui.swing.ex3.MySTextField .up.|> java.awt.event.ActionListener
+  global.skymind.solution.advanced.gui.swing.ex3.MySTextField -up-|> javax.swing.JFrame
+  global.skymind.solution.advanced.gui.swing.ex4.MySCheckBox .up.|> java.awt.event.ActionListener
+  global.skymind.solution.advanced.gui.swing.ex4.MySCheckBox -up-|> javax.swing.JFrame
+  global.skymind.solution.advanced.gui.swing.ex5.MySMenuBar .up.|> java.awt.event.ActionListener
+  global.skymind.solution.advanced.gui.swing.ex5.MySMenuBar -up-|> javax.swing.JFrame
+  global.skymind.solution.advanced.gui.swing.ex6.MySFileChooser .up.|> java.awt.event.ActionListener
+  global.skymind.solution.advanced.gui.swing.ex6.MySFileChooser -up-|> javax.swing.JFrame
+  global.skymind.solution.intermediate.collections.Ex1_GenericClass o-- T : obj
+  global.skymind.solution.intermediate.collections.Ex8_Linked o-- global.skymind.solution.intermediate.collections.Ex8_Linked : next
+  global.skymind.solution.intermediate.collections.Ex8_LinkedList o-- global.skymind.solution.intermediate.collections.Ex8_Linked : firstLink
+  global.skymind.training.advanced.gui.javafx.ex1.MyFXStage -up-|> javafx.application.Application
+  global.skymind.training.advanced.gui.javafx.ex2.MyFXButton .up.|> javafx.event.EventHandler
+  global.skymind.training.advanced.gui.javafx.ex2.MyFXButton -up-|> javafx.application.Application
+  global.skymind.training.advanced.gui.javafx.ex3.MyFXTextBox .up.|> javafx.event.EventHandler
+  global.skymind.training.advanced.gui.javafx.ex3.MyFXTextBox -up-|> javafx.application.Application
+  global.skymind.training.advanced.gui.javafx.ex4.MyFXCheckBox .up.|> javafx.event.EventHandler
+  global.skymind.training.advanced.gui.javafx.ex4.MyFXCheckBox -up-|> javafx.application.Application
+  global.skymind.training.advanced.gui.javafx.ex5.MyFXMenuBar .up.|> javafx.event.EventHandler
+  global.skymind.training.advanced.gui.javafx.ex5.MyFXMenuBar -up-|> javafx.application.Application
+  global.skymind.training.advanced.gui.javafx.ex6.MyFXFileChooser .up.|> javafx.event.EventHandler
+  global.skymind.training.advanced.gui.javafx.ex6.MyFXFileChooser -up-|> javafx.application.Application
+  global.skymind.training.advanced.gui.swing.ex1.MySFrame -up-|> javax.swing.JFrame
+  global.skymind.training.advanced.gui.swing.ex2.MySButton .up.|> java.awt.event.ActionListener
+  global.skymind.training.advanced.gui.swing.ex2.MySButton -up-|> javax.swing.JFrame
+  global.skymind.training.advanced.gui.swing.ex3.MySTextField .up.|> java.awt.event.ActionListener
+  global.skymind.training.advanced.gui.swing.ex3.MySTextField -up-|> javax.swing.JFrame
+  global.skymind.training.advanced.gui.swing.ex4.MySCheckBox .up.|> java.awt.event.ActionListener
+  global.skymind.training.advanced.gui.swing.ex4.MySCheckBox -up-|> javax.swing.JFrame
+  global.skymind.training.advanced.gui.swing.ex5.MySMenuBar .up.|> java.awt.event.ActionListener
+  global.skymind.training.advanced.gui.swing.ex5.MySMenuBar -up-|> javax.swing.JFrame
+  global.skymind.training.advanced.gui.swing.ex6.MySFileChooser .up.|> java.awt.event.ActionListener
+  global.skymind.training.advanced.gui.swing.ex6.MySFileChooser -up-|> javax.swing.JFrame
+  global.skymind.training.intermediate.collections.Ex1_GenericClass o-- T : obj
+  global.skymind.training.intermediate.collections.Ex8_Linked o-- global.skymind.training.intermediate.collections.Ex8_Linked : next
+  global.skymind.training.intermediate.collections.Ex8_LinkedList o-- global.skymind.training.intermediate.collections.Ex8_Linked : firstLink
+  global.skymind.training.intermediate.oop.demo.demo03_inheritance.Dog -up-|> global.skymind.training.intermediate.oop.demo.demo03_inheritance.Animal
+  global.skymind.training.intermediate.oop.demo.demo04_abstraction.abstractClassDemo.abstractClassDemo -up-|> global.skymind.training.intermediate.oop.demo.demo04_abstraction.abstractClassDemo.simpleAbstract
+  global.skymind.training.intermediate.oop.demo.demo04_abstraction.interfaceDemo.InterfaceDemo .up.|> global.skymind.training.intermediate.oop.demo.demo04_abstraction.interfaceDemo.simpleInterface
+  global.skymind.training.intermediate.oop.demo.demo05_polymorphism.OverridingDemo.MethodOverriding -up-|> global.skymind.training.intermediate.oop.demo.demo05_polymorphism.OverridingDemo.basicClass
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
