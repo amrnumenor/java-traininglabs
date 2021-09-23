@@ -27,4 +27,62 @@ package global.skymind.training.intermediate.oop.ex03;
  * */
 
 public class Employee {
+    // Fields
+    private String firstName, lastName;
+    private int age;
+    private double salary = 4000;
+
+    //Constructors
+    public Employee(String firstName, String lastName, int age, double salary) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.salary = salary;
+    }
+
+    public Employee(String firstName, String lastName) {
+        this(firstName, lastName, 23, 4000);
+    }
+
+    //Methods
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getFullName() {
+        return getFirstName() + " " + getLastName();
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+        Employee employeeA = new Employee("Khairul", "Aming");
+        System.out.println("The employee name is " + employeeA.getFullName());
+    }
 }

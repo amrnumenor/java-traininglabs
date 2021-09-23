@@ -31,8 +31,8 @@ class Student {
         return name;
     }
 
-    public String getAge(){
-        return name;
+    public int getAge(){
+        return this.age;
     }
 
     public void setName(String newName){

@@ -62,7 +62,7 @@ public class Ex16_ReturnStatement {
                 return arr[i];
             }
         }
-        return arr.length /* REMOVE arr.length AND ENTER YOUR CODE HERE */;
+        return -1; /* REMOVE arr.length AND ENTER YOUR CODE HERE */
     }
 
 

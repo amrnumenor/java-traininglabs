@@ -31,30 +31,30 @@ public class Ex_2 {
 
         // Uncomment all the code and run
 
-//        try {
-//            wrongAnswer();
-//        } catch (/*TODO(Handle correct exception)*/) {
-//            //TODO(Print out the exception message)
-//        }
+        try {
+            wrongAnswer();
+        } catch (AnswerWrongException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     // Uncomment the following class to create exception
 
-//    static class AnswerWrongException /*TODO(Extend a class to make it an exception)*/ {
-//        private final String message;
-//
-//        public AnswerWrongException(String message) {
-//            super(message);
-//            this.message = message;
-//        }
-//
-//        @Override
-//        public String getMessage() {
-//            return "AnswerWrongException: " + /*TODO(Put your message here)*/;
-//        }
-//    }
+    static class AnswerWrongException extends Exception {
+        private final String message;
 
-    public static void wrongAnswer() /*TODO(Handle the exceptions)*/ {
+        public AnswerWrongException(String message) {
+            super(message);
+            this.message = message;
+        }
+
+        @Override
+        public String getMessage() {
+            return "AnswerWrongException: " + this.message;
+        }
+    }
+
+    public static void wrongAnswer() throws AnswerWrongException {
         // Purposely do it to get the wrong answer
         int a = 5;
         int b = 9;
@@ -64,6 +64,7 @@ public class Ex_2 {
             System.out.println(a + " + " + b + " = " + ans);
         } else {
             /*TODO(Throw our custom exception and print the message: [a + " + " + b + " is not equal " + ans])*/
+            throw new AnswerWrongException((a + b) + " is not the correct answer!");
         }
     }
 }

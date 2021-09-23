@@ -45,9 +45,11 @@ public class Ex12_ForEachLoop {
         marvelRank.add("9. Peggy Carter");
         marvelRank.add("10. Matt Murdock");
 
+        marvelRank.forEach((e) -> System.out.println(e));
+
         // Let's replace the lengthy for loop with a simpler for-each loop
-//        for (/* ENTER YOUR CODE HERE */) {
-//            System.out.println(/* ENTER YOUR CODE HERE */);
+//        for (String characters : marvelRank) {
+//            System.out.println(characters);
 //        }
 
     }

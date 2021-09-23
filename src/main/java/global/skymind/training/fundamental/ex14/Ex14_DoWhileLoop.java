@@ -51,17 +51,17 @@ public class Ex14_DoWhileLoop {
 
         // Let's try printing the first element using a while loop
         System.out.println("============While loop=================");
-        while (printCounter4While < 0) {
-            System.out.println(/* ENTER YOUR CODE HERE */);
+        while (printCounter4While < 9) {
+            System.out.println(progLangJobs.get(printCounter4While));
             printCounter4While++;
         }
 
         // Let's use a do-while loop to do the same thing
         System.out.println("============Do While loop=================");
-//        do {
-//            System.out.println(progLangJobs.get(printCounter4DoWhile));
-//            printCounter4DoWhile++;
-//        } while (/* ENTER YOUR CODE HERE */);
+        do {
+            System.out.println(progLangJobs.get(printCounter4DoWhile));
+            printCounter4DoWhile++;
+        } while (printCounter4DoWhile < 9);
 
         /*
         Do you notice the difference? What did you managed to observe in this example?

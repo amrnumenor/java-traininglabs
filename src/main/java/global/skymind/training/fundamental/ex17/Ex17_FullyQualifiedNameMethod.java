@@ -17,6 +17,8 @@
  */
 package global.skymind.training.fundamental.ex17;
 
+import global.skymind.util.MyClass;
+
 /**
     1. We can access the declared classes of different packages without having to use
        the import statement when we apply the fully qualified name.
@@ -41,7 +43,8 @@ public class Ex17_FullyQualifiedNameMethod {
         String name = "This packages is using Fully-Qualified Method";
 
         // Creating an instance of class MyClass from another package.
-        //Write your code here
+        global.skymind.util.MyClass myclass = new global.skymind.util.MyClass();
+        myclass.printName("ame");
 
     }
 }

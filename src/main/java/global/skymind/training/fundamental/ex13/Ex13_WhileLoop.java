@@ -50,8 +50,8 @@ public class Ex13_WhileLoop {
         // We use iterator here to use its .hasNext() method (don't worry about it)
         Iterator<String> iterator = progLangJobs.iterator();
         // Let's write a while loop to print each element
-//        while (/* ENTER YOUR CODE HERE */) // This .hasNext() method returns a boolean (true or false) if next element is present
-//            System.out.println(iterator.next());
+        while (iterator.hasNext()) // This .hasNext() method returns a boolean (true or false) if next element is present
+            System.out.println(iterator.next());
 
     }
 

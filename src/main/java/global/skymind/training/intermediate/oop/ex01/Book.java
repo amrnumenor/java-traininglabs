@@ -30,4 +30,75 @@ public class Book {
      * Implement a method taking a % value, which is the proportion of the book that has been read
      * by a person. Based on the %, this method should return the number of pages left to read.
      * */
+
+    private String bookTitle, author;
+    private boolean isFiction;
+    private int numOfPages;
+
+    public Book(String bookTitle, String author, boolean isFiction, int numOfPages) {
+        this.bookTitle = bookTitle;
+        this.author = author;
+        this.isFiction = isFiction;
+        this.numOfPages = numOfPages;
+    }
+
+    public Book(String bookTitle, boolean isFiction, int numOfPages) {
+        this(bookTitle, "NA", isFiction, numOfPages);
+    }
+
+    public String getBookTitle() {
+        return bookTitle;
+    }
+
+    public void setBookTitle(String bookTitle) {
+        this.bookTitle = bookTitle;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public boolean isFiction() {
+        return isFiction;
+    }
+
+    public void setFiction(boolean fiction) {
+        isFiction = fiction;
+    }
+
+    public int getNumOfPages() {
+        return numOfPages;
+    }
+
+    public void setNumOfPages(int numOfPages) {
+        this.numOfPages = numOfPages;
+    }
+
+    public String progress(int percent) {
+        double pagesRead = (percent / 100.0) * this.numOfPages;
+        return (int)(this.numOfPages - pagesRead) + " pages left";
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookTitle='" + bookTitle + '\'' +
+                ", author='" + author + '\'' +
+                ", isFiction=" + isFiction +
+                ", numOfPages=" + numOfPages +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        Book book = new Book("Harry Potter", "JK Rowling", false, 450);
+        System.out.println(book.toString());
+        book.setFiction(true);
+        System.out.println(book.progress(50));
+        System.out.println(book.toString());
+
+    }
 }

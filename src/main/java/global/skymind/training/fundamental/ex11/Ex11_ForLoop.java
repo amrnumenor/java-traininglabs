@@ -56,7 +56,7 @@ public class Ex11_ForLoop {
             System.out.println("Incorrect input. Please input an integer between 1 and 10.");
         } else {
             for (int i = 0; i < input; i++) {
-                System.out.println(/* ENTER YOUR CODE HERE */);
+                System.out.println(marvelRank.get(i));
             }
         }
 

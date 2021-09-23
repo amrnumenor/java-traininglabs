@@ -56,9 +56,9 @@ public class Ex15_BreakContinueStatement {
         top17TechSkillsbyComptia.add("17. Virtual Reality");
 
 
-        breakStatement(top17TechSkillsbyComptia); // uncomment when not used
+//        breakStatement(top17TechSkillsbyComptia); // uncomment when not used
 
-//        continueStatement(top17TechSkillsbyComptia); // uncomment when not used
+        continueStatement(top17TechSkillsbyComptia); // uncomment when not used
 
     }
 
@@ -66,7 +66,7 @@ public class Ex15_BreakContinueStatement {
 
         // Here we use break statement to terminate the loop if it is a null element
 
-        arrayList.add(5, null); // add a null element, you may change the index
+        arrayList.add(11, null); // add a null element, you may change the index
 
         Iterator iterator = arrayList.iterator();
 
@@ -75,7 +75,7 @@ public class Ex15_BreakContinueStatement {
             Object currentElement = iterator.next();
 
             if (currentElement == null) // we terminate the while loop if the element is a null
-                /* ENTER YOUR CODE HERE */
+                break;
 
             System.out.println(currentElement);
         }
@@ -89,7 +89,7 @@ public class Ex15_BreakContinueStatement {
         for (int i = 0; i < arrayList.size(); i++) {
 
             if (i % 2 != 0) { // we skip this turn or iteration if the index is odd
-                /* ENTER YOUR CODE HERE */
+                continue;
             }
             System.out.println(arrayList.get(i));
 

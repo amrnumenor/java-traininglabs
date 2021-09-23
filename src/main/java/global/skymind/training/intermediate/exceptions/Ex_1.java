@@ -17,6 +17,7 @@
  */
 package global.skymind.training.intermediate.exceptions;
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class Ex_1 {
@@ -38,11 +39,12 @@ public class Ex_1 {
 
         // Uncomment and run the following code
 
-//        try {
-//            FileReader reader = new FileReader(filename);
-//        } catch (/*TODO(ENTER correct exception handling class here)*/) {
+        try {
+            FileReader reader = new FileReader(filename);
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
 //            System.out.println(filename + " is not found");
-//        }
+        }
 
         /*
         This is second part of the question
@@ -53,7 +55,10 @@ public class Ex_1 {
         */
 
         char[] arr = {'a', 'b', 'c'};
-
-        System.out.println(arr[10]);
+        try {
+            System.out.println(arr[10]);
+        } catch (ArrayIndexOutOfBoundsException e){
+            System.out.println(e);
+        }
     }
 }

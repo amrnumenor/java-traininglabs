@@ -28,5 +28,86 @@ package global.skymind.training.intermediate.oop.ex02;
  *
  * */
 
+import java.util.ArrayList;
+
 public class BankAccount {
+    private String name;
+    private int id;
+    private double balance;
+
+    public BankAccount(String name, int id, double balance) {
+        this.name = name;
+        this.id = id;
+        this.balance = balance;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    private void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void deposit(double amount) {
+        this.setBalance(this.getBalance() + amount);
+    }
+
+    public void withdraw(double amount) {
+        if(this.getBalance() - amount >= 50.00)
+            setBalance(this.getBalance() - amount);
+        else
+            System.out.println("Cannot withdraw! Reached minimum savings amount!");
+        if(this.getBalance() == 60.00) System.out.println("Your account is RM10 away from the minimum amount");
+    }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", balance=" + balance +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        BankAccount accountA = new BankAccount("Mira", 100, 100);
+        BankAccount accountB = new BankAccount("Hiro", 101, 40);
+        BankAccount accountC = new BankAccount("Jong-Kook", 102, 55);
+
+        ArrayList<BankAccount> list = new ArrayList<>();
+        list.add(accountA);
+        list.add(accountB);
+        list.add(accountC);
+
+        accountA.deposit(20);
+        accountB.deposit(5);
+        accountC.deposit(10);
+
+        // Display variables
+        list.forEach((e) -> System.out.println(e.toString()));
+
+        accountA.withdraw(60);
+        accountB.withdraw(10);
+        accountC.withdraw(20);
+
+        // Display variables
+        list.forEach((e) -> System.out.println(e.toString()));
+    }
 }

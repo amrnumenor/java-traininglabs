@@ -31,20 +31,20 @@ public class Ex_3 {
 
         int x = 10;
         int y = 15;
-//        int a = // TODO(Put your answer here)
-//        int b = // TODO(Put your answer here)
-//        int c = // TODO(Put your answer here)
+        int a = 25; // TODO(Put your answer here)
+        int b = 33; // TODO(Put your answer here)
+        int c = 11; // TODO(Put your answer here)
 
         int ans = 0;
 
         try {
             ans = x + y;
 
-//            if (ans == a) {
-//                System.out.println("Answer(a) is right");
-//            } else {
-//                System.out.println("Answer(a) is wrong");
-//            }
+            if (ans == a) {
+                System.out.println("Answer(a) is right");
+            } else {
+                System.out.println("Answer(a) is wrong");
+            }
 
             // Purposely throw the exception
             throw new RuntimeException("Exception Occurs");
@@ -52,21 +52,21 @@ public class Ex_3 {
 
             ans += 8;
 
-//            if (ans == b) {
-//                System.out.println("Answer(b) is right");
-//            } else {
-//                System.out.println("Answer(b) is wrong");
-//            }
+            if (ans == b) {
+                System.out.println("Answer(b) is right");
+            } else {
+                System.out.println("Answer(b) is wrong");
+            }
 
         } finally {
 
             ans /= 3;
 
-//            if (ans == c) {
-//                System.out.println("Answer(c) is right");
-//            } else {
-//                System.out.println("Answer(c) is wrong");
-//            }
+            if (ans == c) {
+                System.out.println("Answer(c) is right");
+            } else {
+                System.out.println("Answer(c) is wrong");
+            }
 
         }
     }
