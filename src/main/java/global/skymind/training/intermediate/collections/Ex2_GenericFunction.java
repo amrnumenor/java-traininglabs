@@ -23,18 +23,20 @@ package global.skymind.training.intermediate.collections;
 public class Ex2_GenericFunction {
 
     //A Generic method example
-    /* enter your code here*/
+    static <T> void genericDisplay(T element) {
+        System.out.println(element.getClass().getName() + " = " + element);
+    }
 
     //Driver method
     public static void main(String[] args)
     {
         //Calling generic method with Integer argument
-        //genericDisplay(2);
+        genericDisplay(2);
 
         //Calling generic method with String argument
-        //genericDisplay("Generic Function");
+        genericDisplay("Generic Function");
 
         //Calling generic method with double argument
-        //genericDisplay(2.0);
+        genericDisplay(2.0);
     }
 }

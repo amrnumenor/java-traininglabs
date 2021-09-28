@@ -23,12 +23,18 @@ import java.util.*;
 public class Ex4_ChangeInList {
     public static void main(String args[])
     {
-        /*enter your code here*/
         //Creating list
+        List<String> vehicle = new ArrayList<>();
 
         //Adding object in list
+        vehicle.add("car");
+        vehicle.add("motorcycle");
+        vehicle.add("bicycle");
+        vehicle.add("bus");
+        System.out.println("Before: " + vehicle);
 
         //Changing elements in list
-
+        vehicle.set(2, "truck");
+        System.out.println("After: " + vehicle);
     }
 }

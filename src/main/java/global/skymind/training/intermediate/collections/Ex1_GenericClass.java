@@ -47,7 +47,8 @@ class Main
     public static void main (String[] args)
     {
         //instance of Integer type
-        /* enter your code here*/
+        Ex1_GenericClass<Integer> iObj= new Ex1_GenericClass<Integer>(1);
+        System.out.println(iObj.getObject());
 
         //instance of String type
         Ex1_GenericClass <String> sObj =

@@ -32,8 +32,17 @@ public class Ex6_IterateInList {
         al.add(1, "For");
 
         //Using the Get method and the for loop
+        for (int i = 0; i < al.size(); i++) {
+            System.out.print(al.get(i) + " ");
+        }
+        System.out.println();
 
         //Using the for each loop
+        for (String e: al)
+            System.out.print(e + " ");
+        System.out.println();
 
+        //Using the for each method
+        al.forEach((e) -> System.out.print(e + " "));
     }
 }

@@ -35,8 +35,12 @@ public class Ex5_DeleteInList {
         System.out.println("Initial ArrayList " + al);
 
         //Removing index in list
+        al.remove(1);
+        System.out.println("After index removal: " + al);
 
         //Removing object in list
+        al.remove("rambutan");
+        System.out.println("After object removal: " + al);
 
     }
 }

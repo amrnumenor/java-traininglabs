@@ -30,7 +30,7 @@ public class Ex7_ArrayList {
         int n = 5;
 
         //Declaring the ArrayList with initial size n
-        /* enter your code here
+        ArrayList<Integer> arrli = new ArrayList<Integer>(n);
 
         //Appending new elements at the end of the list
         for (int i = 1; i <= n; i++)
@@ -40,13 +40,13 @@ public class Ex7_ArrayList {
         System.out.println(arrli);
 
         //Remove element at index 3
-        arrli.remove(4);
+        arrli.remove(3);
 
         //Displaying the ArrayList after deletion
         System.out.println(arrli);
 
         //Printing elements one by one
         for (int i = 0; i < arrli.size(); i++)
-            System.out.print(arrli.get(i) + " ");*/
+            System.out.print(arrli.get(i) + " ");
     }
 }

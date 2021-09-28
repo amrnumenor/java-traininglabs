@@ -23,9 +23,14 @@ import java.util.*;
 public class Ex3_AddInList {
     public static void main(String args[])
     {
-        /*enter your code here*/
         //Creating list
+        List<String> fruits = new ArrayList<>();
 
         //Adding object in list
+        fruits.add("apple");
+        fruits.add("banana");
+        fruits.add(1, "orange");
+        fruits.addAll(Arrays.asList("mango", "peach"));
+        System.out.println(fruits.toString());
     }
 }

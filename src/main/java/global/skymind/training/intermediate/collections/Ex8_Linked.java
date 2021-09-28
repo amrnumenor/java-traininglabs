@@ -42,7 +42,7 @@ public class Ex8_Linked {
     public static void main(String[] args) {
         Ex8_LinkedList theLinkedList = new Ex8_LinkedList();
         //Insert Link and add a reference to the book Link added just prior to the field next
-        /* enter your code here*/
+
 
         System.out.println("Value of first in LinkedList " + theLinkedList.firstLink + "\n");
 
